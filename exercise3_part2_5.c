@@ -251,19 +251,22 @@ void *readThread(void *threadp)
         //DATA COPY CRITICAL SECTION
         // time lock mutex to copy shared data structure
         clock_gettime(CLOCK_MONOTONIC, &abs_timeout); // get current time for absolute timeout calculations
-        abs_timeout.tv_sec += READ_TIMEOUT_S; // set timeout to be 1s after now, should be plenty of time for the lock to be released by the update thread since it only holds it for a short time
+        abs_timeout.tv_sec += READ_TIMEOUT_S; // set timeout to be 1s after now, should be plenty of time for the lock to be 
+                                              // released by the update thread since it only holds it for a short time
         //timed mutex lock
         rc_m = pthread_mutex_timedlock(&data_mutex, &abs_timeout);
         if (rc_m == ETIMEDOUT)
         {
             clock_gettime(CLOCK_MONOTONIC, &time_now); // get current time for printing
             time_relative = timespec_diff(&time_start, &time_now); // compute relative time since start for printing
-            printf("ERROR: readThread timed out waiting for data mutex at relative time: %ld.%09ld sec, breaking out of thread!\n", time_relative.tv_sec, time_relative.tv_nsec);
+            printf("ERROR: readThread timed out waiting for data mutex at relative time: %ld.%09ld sec, breaking out of thread!\n",
+                time_relative.tv_sec, time_relative.tv_nsec);
             break; // skip this read if mutex lock fails
         }
         else if (rc_m != 0)
         {
-            printf("ERROR: readThread failed to lock data mutex, error code: %d, error message: %s\n", rc_m, strerror(rc_m));
+            printf("ERROR: readThread failed to lock data mutex, error code: %d, error message: %s\n",
+                rc_m, strerror(rc_m));
             break; // skip this read if mutex lock fails
         }
         // make local copy of shared data structure for printing
