@@ -1,0 +1,216 @@
+******* READ SUMMARY *******
+Read values from int seconds of relative time
+{
+ lat=0.100000
+ lon=2.000000
+ alt=2.500000
+ roll=0.479426
+ pitch=0.283662
+ yaw=0.877583
+ write_timestamp=10.000272377
+ seq_count=10
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.200000
+ lon=4.000000
+ alt=5.000000
+ roll=0.841471
+ pitch=0.408082
+ yaw=0.540302
+ write_timestamp=20.000270858
+ seq_count=20
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.300000
+ lon=6.000000
+ alt=7.500000
+ roll=0.997495
+ pitch=0.525322
+ yaw=0.070737
+ write_timestamp=30.000269092
+ seq_count=30
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.400000
+ lon=8.000000
+ alt=10.000000
+ roll=0.909297
+ pitch=-0.110387
+ yaw=-0.416147
+ write_timestamp=40.000271245
+ seq_count=40
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.500000
+ lon=10.000000
+ alt=12.500000
+ roll=0.598472
+ pitch=0.787715
+ yaw=-0.801144
+ write_timestamp=50.000276901
+ seq_count=50
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.600000
+ lon=12.000000
+ alt=15.000000
+ roll=0.141120
+ pitch=-0.598460
+ yaw=-0.989992
+ write_timestamp=60.000270331
+ seq_count=60
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.700000
+ lon=14.000000
+ alt=17.500000
+ roll=-0.350783
+ pitch=0.999022
+ yaw=-0.936457
+ write_timestamp=70.000274293
+ seq_count=70
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.800000
+ lon=16.000000
+ alt=20.000000
+ roll=-0.756802
+ pitch=0.903705
+ yaw=-0.653644
+ write_timestamp=80.000270612
+ seq_count=80
+}
+
+Read values from int seconds of relative time
+{
+ lat=0.900000
+ lon=18.000000
+ alt=22.500000
+ roll=-0.977530
+ pitch=-0.964974
+ yaw=-0.210796
+ write_timestamp=90.000271734
+ seq_count=90
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.000000
+ lon=20.000000
+ alt=25.000000
+ roll=-0.958924
+ pitch=-0.883849
+ yaw=0.283662
+ write_timestamp=100.000269588
+ seq_count=100
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.100000
+ lon=22.000000
+ alt=27.500000
+ roll=-0.705540
+ pitch=-0.241018
+ yaw=0.708670
+ write_timestamp=110.000271619
+ seq_count=110
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.200000
+ lon=24.000000
+ alt=30.000000
+ roll=-0.279415
+ pitch=-0.839039
+ yaw=0.960170
+ write_timestamp=120.000265224
+ seq_count=120
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.300000
+ lon=26.000000
+ alt=32.500000
+ roll=0.215120
+ pitch=-0.996093
+ yaw=0.976588
+ write_timestamp=130.000270299
+ seq_count=130
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.400000
+ lon=28.000000
+ alt=35.000000
+ roll=0.656987
+ pitch=0.984393
+ yaw=0.753902
+ write_timestamp=140.000274447
+ seq_count=140
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.500000
+ lon=30.000000
+ alt=37.500000
+ roll=0.938000
+ pitch=0.952385
+ yaw=0.346635
+ write_timestamp=150.000278241
+ seq_count=150
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.600000
+ lon=32.000000
+ alt=40.000000
+ roll=0.989358
+ pitch=-0.197695
+ yaw=-0.145500
+ write_timestamp=160.000269963
+ seq_count=160
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.700000
+ lon=34.000000
+ alt=42.500000
+ roll=0.798487
+ pitch=0.991219
+ yaw=-0.602012
+ write_timestamp=170.000278621
+ seq_count=170
+}
+
+Read values from int seconds of relative time
+{
+ lat=1.800000
+ lon=36.000000
+ alt=45.000000
+ roll=0.412118
+ pitch=0.487293
+ yaw=-0.911130
+ write_timestamp=180.000269686
+ seq_count=180
+}
