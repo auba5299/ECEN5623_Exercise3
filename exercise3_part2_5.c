@@ -256,8 +256,9 @@ void *readThread(void *threadp)
         rc_m = pthread_mutex_timedlock(&data_mutex, &abs_timeout);
         if (rc_m == ETIMEDOUT)
         {
-            printf("ERROR: readThread timed out waiting for data mutex, breaking out of thread!\n");
-            printf("Breaking out of thread...\n");
+            clock_gettime(CLOCK_MONOTONIC, &time_now); // get current time for printing
+            time_relative = timespec_diff(&time_start, &time_now); // compute relative time since start for printing
+            printf("ERROR: readThread timed out waiting for data mutex at relative time: %ld.%09ld sec, breaking out of thread!\n", time_relative.tv_sec, time_relative.tv_nsec);
             break; // skip this read if mutex lock fails
         }
         else if (rc_m != 0)
